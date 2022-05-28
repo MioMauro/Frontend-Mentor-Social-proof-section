@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,600;1,500&family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    /*font-size: 11px; text-align: center;    Body Copy- Font size: 15px    font-family: 'League Spartan', sans-serif;   - font-weights: 400; 500; 700; -Mobile: 375px- */
+}
+
+html{                                    
+    width: 75vw; /*  --(?????)--  */
+}
+
+body{
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, repeat;
+    font-family:'League Spartan', sans-serif;
+}
+
+main{
+    text-align: left;       
+}
+
+.maincontainer{    
+    width: 75vw;
+    height: 800px;                    
+    margin: 0 0 0 240px;                 
+    padding: 0 10.3rem 0 10.3rem;       
+}
+
+.maincontainer .flexbox-up{
+    display: flex;
+    flex-direction: column;                  
+    flex-wrap: wrap;
+    width: 1114px;
+    height: 360px;
+    padding: 115px 0 0 0;
+    }
+
+.maincontainer .flexbox-up .flex-up-sx{
+    width: 573px;
+    height: 246px;      
+}
+
+.maincontainer .flexbox-up .flex-up-sx h1{      
+    font-size: 3.35rem;
+    color: var(--Very-Dark-Magenta);    
+    font-weight: 700;
+}
+
+.maincontainer .flexbox-up .flex-up-sx p{
+    margin-top: 1rem;
+    font-size: 0.975rem;
+    font-weight: 500; 
+    color: hsl(303, 10%, 53%);  
+    line-height: 1.5;
+}
+
+.maincontainer .flexbox-up .flex-up-dx{
+    width: 542px;
+    height: 246px;
+    color: var(--Very-Dark-Magenta);    
+    font-size: 1.4rem;
+    font-weight: 700;       
+}
+
+.maincontainer .flexbox-up .flex-up-dx .fivestars-box-one{
+    padding: 25px 0 18px 0;
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 444px;
+    height: 54px;  
+}
+
+.maincontainer .flexbox-up .flex-up-dx .fivestars-box-two{
+    padding: 18px 0 18px 0;
+    margin-top: 10px;
+    margin-left: 48.5px;
+    width: 444px;
+    height: 54px; 
+}
+
+.maincontainer .flexbox-up .flex-up-dx .fivestars-box-three{
+    padding: 18px 0 18px 0;
+    margin-top: 10px;
+    margin-left: 94.5px;
+    width: 444px;
+    height: 54px;
+}
+
+.maincontainer .flexbox-up .flex-up-dx span{
+    color: var(--Very-Dark-Magenta);
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-left: 20px;
+}
+/*=============================================*/
+
+.flexbox-down{
+    display: flex;
+    flex-direction: column;                  
+    flex-wrap: wrap;    
+    width: 1114px;
+    height: 336px;
+    padding: 0 0 0 0;    
+}
+
+.flexbox-down .first-box{
+    width: 352px;
+    height: 234px;
+    margin-top: 70px;
+    background-color: var(--Very-Dark-Magenta);
+}
+
+.flexbox-down .second-box{
+    width: 352px;
+    height: 234px;
+    margin-top: 85px;
+    margin-left: 20px;
+    background-color: var(--Very-Dark-Magenta);
+}
+
+.flexbox-down .third-box{
+    width: 352px;
+    height: 234px;
+    margin-top: 100px;
+    margin-left: 20px;
+    background-color: var(--Very-Dark-Magenta);
+}
+
+.flexbox-down img{
+    position: absolute;
+    border-radius: 50%;
+    width: 40px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.flexbox-down p{
+    margin: 45px 0 0 93px;
+    color: hsl(300, 24%, 96%);
+}
+
+.flexbox-down .text .job{ 
+    position: absolute;
+    width: 275px;   
+    color: hsl(300, 24%, 96%);
+    line-height: 1.2;    
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+

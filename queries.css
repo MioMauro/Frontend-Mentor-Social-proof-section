@@ -1,0 +1,70 @@
+@media only screen and (max-width: 1000px) {
+    .maincontainer {          
+            width: 1000px;
+            height: 800px;                    
+            margin: 0 0 0 120px;                 
+            padding: 0 5rem 0 5rem;       
+    }
+
+    .maincontainer .flexbox-up{
+        display: flex;
+        flex-direction: row;                  
+        flex-wrap: wrap;
+        width: 400px;
+        height: 360px;
+        padding: 55px 0 0 0;
+    }
+
+    .flexbox-down{
+        margin-top: 90px;
+        display: flex;
+        flex-direction: row;                  
+        flex-wrap: wrap;    
+        width: 400px;
+        height: 336px;        
+    }
+
+    .maincontainer .flexbox-up .flex-up-dx .fivestars-box-one{
+        padding: 25px 0 18px 0;
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 400px;
+        height: 54px;  
+    }
+    
+    .maincontainer .flexbox-up .flex-up-dx .fivestars-box-two{
+        padding: 18px 0 18px 0;
+        margin-top: 10px;
+        margin-left: 0px;
+        width: 400px;
+        height: 54px; 
+    }
+    
+    .maincontainer .flexbox-up .flex-up-dx .fivestars-box-three{
+        padding: 18px 0 18px 0;
+        margin-top: 10px;
+        margin-left: 0px;
+        width: 400px;
+        height: 54px;
+    }
+
+    .flexbox-down .first-box{
+        width: 352px;
+        height: 234px;
+        margin-top: 70px;        
+    }
+    
+    .flexbox-down .second-box{
+        width: 352px;
+        height: 234px;
+        margin-top: 30px;
+        margin-left: 0px;        
+    }
+    
+    .flexbox-down .third-box{
+        width: 352px;
+        height: 234px;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+}
